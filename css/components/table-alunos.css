@@ -1,0 +1,33 @@
+@import url(./reset.css);
+
+
+
+
+.table-alunos{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    color: azure;
+}
+
+.table-alunos__cabecalho{
+    border: 1px solid black;
+    background: #ad0000;
+}
+
+.table-alunos td{
+    border: 1px solid black;
+    background: #af836f;
+    color: black;
+}
+
+.table-alunos__title{
+    padding: 15px;
+    background-color: rgb(32, 194, 0);
+}
+
+.table-footer{
+    text-align: center;
+    background: #fcd600e8;
+}
