@@ -2,7 +2,8 @@
 
 .main-content{
     padding: 20px;
-    background-color: rgb(208, 233, 255);
+    background-color: rgb(223, 214, 208);
+    height: 100vh;
 }
 
 .header-title{
@@ -12,5 +13,19 @@
 
 .table-main{
     width: 100%;
-    border: 1px solid;
+    border-collapse: collapse;
+    border: 1px solid white;
+    background-color: rgb(124, 103, 75);
+    color: rgb(26, 19, 5);
+
 }
+
+.table-main th{
+   border: 1px solid;
+   background-color: rgb(94, 63, 43);
+}
+
+.table-main td{
+    border: 1px solid rgb(92, 68, 49);
+}
+
