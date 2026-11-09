@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplos de Tabelas</title>
 
+
+    <!-- Link para os arquivos CSS -->
     <link rel="stylesheet" href="./css/global.css">
 </head>
+
+
 <body>
     <main class="main-content">
-    <header class="header-title">
-        <h1>Exemplos de Tabelas</h1>
-        <!--Túitulo para tabela -->
-        <h2>Notas 1DS - SESI</h2>
-    </header>
-    
+
+
+        <header class="header-title">
+            <h1>Exemplo de tabelas</h1>
+        </header>
         <!-- Container para a tabela -->
-         <table class="table-main">
-            <tr class="title-tr">
-                <th colspan = "4">Notas 1DS - SESI</th>
-            </tr>
-            <tr>
-                <th  colspan = "4">.</th>
-                
-            </tr>
+        <table class="table-alunos">
+            <!-- Indicar o cabeçalho da tabela -->
             <thead>
-                <!-- Criar uma linha na tabela tr = table row -->
+            <tr>
+                <th colspan="4" class="table-alunos__title">Notas 1DS - SESI</th>
+            </tr>
+
+
                 <tr>
-                    <!-- Criar os cabeçalhos das linhas da tabela th = table header-->
-                    <th>Aluno</th>
-                    <th>Professor</th>
-                    <th>Disciplina</th>
-                    <th>Nota</th>
+                    <!-- Criar os cabeçalhos das linhas da tabela  th = table header-->
+                    <th class="table-alunos__cabecalho">Aluno</th>
+                    <th class="table-alunos__cabecalho">Professor</th>
+                    <th class="table-alunos__cabecalho">Disciplina</th>
+                    <th class="table-alunos__cabecalho">Nota</th>
                 </tr>
-            </thead>
+            </thead>           
+
+
             <tbody>
+                 <!-- Criar uma linha na tabela tr = table row -->
                 <tr>
                     <td>Júlia</td>
                     <td>Celso</td>
@@ -51,15 +57,23 @@
                     <td>Davi</td>
                     <td>Sandra</td>
                     <td>Biologia</td>
-                    <td>8,7</td>
+                    <td>8,75</td>
                 </tr>
             </tbody>
-            <foot>
+
+
+            <tfoot>
                 <tr>
-                    <td>dados referentes ao 1 semestre de 2026</td>
+                    <th colspan="4" class="table-footer">Dados refentes ao 1º semestre de 2026 </th>
                 </tr>
-            </foot>
-         </table>
+            </tfoot>
+
+
+
+
+        </table>
     </main>
 </body>
+
+
 </html>
