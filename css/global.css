@@ -1,1 +1,16 @@
 @import url(./reset.css);
+
+.main-content{
+    padding: 20px;
+    background-color: rgb(208, 233, 255);
+}
+
+.header-title{
+    margin-bottom: 15px;
+
+}
+
+.table-main{
+    width: 100%;
+    border: 1px solid;
+}
