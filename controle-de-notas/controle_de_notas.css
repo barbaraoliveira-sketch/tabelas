@@ -59,6 +59,25 @@ body{
     font-weight: bold;
 }
 
+/* seleciona o primeiro elemento filho que contenh o atributo colspan */
 .tabela-notas thead tr:first-child th[colspan] {
     background-color: #87b9f3;
 }
+
+.tabela-notas tbody th{
+    background-color: #fcf7f7;
+    font-weight: normal;
+}
+
+.tabela-notas tbody tr:hover, .tabela-notas tbody th:hover{
+    background-color: #ededed;
+    cursor: crosshair;
+    color: #5096eb;
+}
+
+.tabela-notas tfoot th, .tabela-notas tfoot td{
+    background-color: #e3f3e8;
+    color: #185c35;
+    font-weight: bold;
+}
+
