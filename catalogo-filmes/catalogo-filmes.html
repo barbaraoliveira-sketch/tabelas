@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes com videos e audios</title>
+
+    <link rel="stylesheet" href="./catalogo-filmes.css">
+
+</head>
+<body>
+    <main>
+        <h1>Biblioteca de Vídeos de Áudios</h1>
+
+        <section>
+            <h2>Vídeos do Youtube</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7bU4ojt7WGU?si=N6q73Qt6cvoH6y4v" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xxalt7VV7eo?si=G7J9UTI-d9qYcM5Y"
+             title="YouTube video player" 
+             frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Vídeos Internos</h2>
+            <video controls>
+                <source src="./src/Recording.mp4" type="video/mp4"> 
+                 <source src="./src/Recording.ogg" type="video/ogg">
+            </video>
+            
+        </section>
+
+        <section>
+            <h2>Áudios Internos</h2>
+            <audio src="./src/audio-vingadores.mp3" controls>audio vingadores</audio>
+            <audio src="./src/sinopse_era_do_gelo.mp3" controls>a era do gelo</audio>
+            
+        </section>
+    </main>
+</body>
+</html>
