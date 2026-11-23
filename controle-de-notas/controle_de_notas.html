@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Notas</title>
+
+    <link rel="stylesheet" href="./controle_de_notas.css"> 
+</head>
+
+<body>
+
+    <main class="conteudo-principal">
+
+        <header class="conteudo-principal_header">
+            <h1>Boletim escolar</h1>
+            <p class="descricao">Acompanhamento das avaliações por disciplina</p>
+        </header>
+
+        <table class="tabela-notas">
+            <!-- descrição da tabela para os leitores de tela -->
+            <caption>Controle de Notas</caption>
+
+                <thead>
+                    <tr>
+                         <!-- Criar os cabeçalhos das linhas da tabela  th = table header-->
+                        <th scope="col" rowspan="2">Aluno</th>
+                        <th scope="col" rowspan="2">Professor</th>
+                        <th scope="col" rowspan="2">Disciplina</th>
+                        <th scope="colgroup" colspan="3">Notas</th>
+                    </tr>
+
+                    <tr>
+                        <th scope="col">Prova</th>
+                        <th scope="col">Projeto</th>
+                        <th scope="col">Seminário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- Criar uma linha na tabela tr = table row -->
+                    <tr>
+                        <th scope="row">Ivo</th>
+                        <td>Juliano</td>
+                        <td>Filosofia</td>
+                        <td>7</td>
+                        <td>6.5</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Alex</th>
+                        <td>Liliane</td>
+                        <td>Química</td>
+                        <td>9.8</td>
+                        <td>8.9</td>
+                        <td>7</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="3">Média</th>
+                        <td>8.4</td>
+                        <td>7.7</td>
+                        <td>8.5</td>
+                    </tr>
+
+                </tfoot>
+
+        </table>        
+    </main>
+    
+</body>
+</html>
